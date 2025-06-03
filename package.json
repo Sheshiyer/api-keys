@@ -1,0 +1,39 @@
+{
+  "name": "api-keys",
+  "version": "1.0.0",
+  "title": "API Keys",
+  "description": "Quick access to your stored API keys with secure copy to clipboard functionality",
+  "icon": "icon.png",
+  "author": "raycast",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "API Keys",
+      "description": "Quick access to your stored API keys with secure copy to clipboard functionality",
+      "mode": "view",
+      "icon": "icon.png"
+    },
+    {
+      "name": "add-api-key",
+      "title": "Add API Key",
+      "description": "Add a new API key for any service",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.0.0",
+    "date-fns": "^4.1.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@raycast/utils": "^1.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop"
+  }
+}
