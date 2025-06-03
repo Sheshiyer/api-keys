@@ -1,23 +1,23 @@
 {
-  "name": "api-keys",
+  "name": "cipherkeys",
   "version": "1.0.0",
-  "title": "API Keys",
-  "description": "Quick access to your stored API keys with secure copy to clipboard functionality",
+  "title": "CipherKeys",
+  "description": "Military-grade API credential encryption and management for security-conscious developers",
   "icon": "icon.png",
-  "author": "raycast",
+  "author": "Mage Narayan",
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "API Keys",
-      "description": "Quick access to your stored API keys with secure copy to clipboard functionality",
+      "title": "CipherKeys",
+      "description": "Secure access to encrypted API credentials with hardened clipboard functionality",
       "mode": "view",
       "icon": "icon.png"
     },
     {
       "name": "add-api-key",
-      "title": "Add API Key",
-      "description": "Add a new API key for any service",
+      "title": "Add Credential",
+      "description": "Securely onboard new API credentials to encrypted vault",
       "mode": "view"
     }
   ],

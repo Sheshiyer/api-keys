@@ -1,6 +1,6 @@
-# Contributing to API Keys Manager
+# Contributing to CipherKeys
 
-Thank you for your interest in contributing to the API Keys Manager Raycast extension! 🎉
+Thank you for your interest in contributing to the CipherKeys Raycast extension! 🔐
 
 ## 🚀 Getting Started
 
@@ -13,8 +13,8 @@ Thank you for your interest in contributing to the API Keys Manager Raycast exte
 ### Development Setup
 1. **Fork and Clone**
    ```bash
-   git clone https://github.com/your-username/api-keys-raycast.git
-   cd api-keys-raycast
+   git clone https://github.com/your-username/cipherkeys-raycast.git
+   cd cipherkeys-raycast
    ```
 
 2. **Install Dependencies**
@@ -100,17 +100,17 @@ src/
 
 ## 🔒 Security Considerations
 
-### When Working with API Keys
-- Never log actual API key values
-- Use placeholder data for testing
-- Ensure clipboard clearing works correctly
-- Test with various key formats and lengths
+### When Working with Encrypted Credentials
+- Never log actual credential values in any form
+- Use cryptographically secure placeholder data for testing
+- Ensure memory sanitization protocols function correctly
+- Test with various credential formats and encryption scenarios
 
-### Code Security
-- Avoid hardcoding sensitive data
-- Use secure storage practices
-- Validate all user inputs
-- Follow principle of least privilege
+### Code Security Protocol
+- Implement zero-trust architecture principles
+- Use military-grade encryption standards
+- Validate and sanitize all user inputs
+- Follow principle of least privilege and need-to-know basis
 
 ## 📋 Pull Request Process
 
@@ -191,4 +191,4 @@ Contributors will be:
 - Mentioned in release notes
 - Invited to the contributors team (for regular contributors)
 
-Thank you for making API Keys Manager better for everyone! 🚀
+Thank you for making CipherKeys more secure for everyone! 🔐
